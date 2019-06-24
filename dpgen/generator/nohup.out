@@ -1,0 +1,748 @@
+2019-06-23 04:33:30,972 start running
+/sharedext4/local/tensorflow_gpu/lib/python3.6/site-packages/paramiko/ecdsakey.py:164: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
+  self.ecdsa_curve.curve_class(), pointinfo
+/sharedext4/local/tensorflow_gpu/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py:39: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+  m.add_string(self.Q_C.public_numbers().encode_point())
+/sharedext4/local/tensorflow_gpu/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py:96: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
+  self.curve, Q_S_bytes
+/sharedext4/local/tensorflow_gpu/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py:111: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+  hm.add_string(self.Q_C.public_numbers().encode_point())
+/sharedext4/local/tensorflow_gpu/lib/python3.6/site-packages/paramiko/client.py:822: UserWarning: Unknown ssh-ed25519 host key for localhost: b'182686fd273b99207118f7eb5335aa08'
+  key.get_name(), hostname, hexlify(key.get_fingerprint())
+2019-06-23 04:33:31,437 iter 000000 task 00: make_train
+2019-06-23 04:33:31,455 iter 000000 task 01: run_train
+2019-06-23 04:39:04,814 iter 000000 task 02: post_train
+2019-06-23 04:39:04,818 iter 000000 task 03: make_model_devi
+2019-06-23 04:39:05,354 iter 000000 task 04: run_model_devi
+2019-06-23 04:39:39,435 iter 000000 task 05: post_model_devi
+2019-06-23 04:39:39,437 iter 000000 task 06: make_fp
+2019-06-23 04:39:39,531 SR650 000 task.000.000000: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,538 SR650 000 task.000.000001: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,544 SR650 000 task.000.000002: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,555 SR650 000 task.000.000003: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,558 SR650 000 task.000.000004: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,564 SR650 000 task.000.000005: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,572 SR650 000 task.000.000006: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,579 SR650 000 task.000.000007: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,585 SR650 000 task.000.000008: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,590 SR650 000 task.000.000009: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,595 SR650 000 task.000.000010: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,599 SR650 000 task.000.000011: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,605 SR650 000 task.000.000012: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,612 SR650 000 task.000.000013: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,619 SR650 000 task.000.000014: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,625 SR650 000 task.000.000015: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,664 SR650 000 task.000.000016: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,685 SR650 000 task.000.000017: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,691 SR650 000 task.000.000018: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,696 SR650 000 task.000.000019: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,702 SR650 000 task.000.000020: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,706 SR650 000 task.000.000021: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,710 SR650 000 task.000.000022: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,716 SR650 000 task.000.000023: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,719 SR650 000 task.000.000024: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,722 SR650 000 task.000.000025: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,725 SR650 000 task.000.000026: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,730 SR650 000 task.000.000027: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,733 SR650 000 task.000.000028: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,736 SR650 000 task.000.000029: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,739 SR650 000 task.000.000030: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,743 SR650 000 task.000.000031: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,746 SR650 000 task.000.000032: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,750 SR650 000 task.000.000033: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,755 SR650 000 task.000.000034: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,760 SR650 000 task.000.000035: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,764 SR650 000 task.000.000036: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:39,769 SR650 000 task.000.000037: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:39:40,466 iter 000000 task 07: run_fp
+2019-06-23 04:41:30,945 iter 000000 task 08: post_fp
+38
+# will shuffle raw files ['box.raw', 'coord.raw', 'energy.raw', 'force.raw', 'virial.raw'] in dir orig/ and output to dir .
+nframe is 38
+nline per set is 2000
+will make 1 sets
+making set 0 ...
+2019-06-23 04:41:33,282 iter 000001 task 00: make_train
+2019-06-23 04:41:33,325 iter 000001 task 01: run_train
+2019-06-23 04:47:07,535 iter 000001 task 02: post_train
+2019-06-23 04:47:07,539 iter 000001 task 03: make_model_devi
+2019-06-23 04:47:08,059 iter 000001 task 04: run_model_devi
+2019-06-23 04:47:56,070 iter 000001 task 05: post_model_devi
+2019-06-23 04:47:56,072 iter 000001 task 06: make_fp
+2019-06-23 04:47:56,211 SR650 000 task.001.000000: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,219 SR650 000 task.001.000001: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,224 SR650 000 task.001.000002: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,231 SR650 000 task.001.000003: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,238 SR650 000 task.001.000004: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,247 SR650 000 task.001.000005: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,253 SR650 000 task.001.000006: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,259 SR650 000 task.001.000007: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,264 SR650 000 task.001.000008: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,270 SR650 000 task.001.000009: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,277 SR650 000 task.001.000010: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,283 SR650 000 task.001.000011: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,290 SR650 000 task.001.000012: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,296 SR650 000 task.001.000013: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,325 SR650 000 task.001.000014: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,330 SR650 000 task.001.000015: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,334 SR650 000 task.001.000016: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,337 SR650 000 task.001.000017: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,342 SR650 000 task.001.000018: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,349 SR650 000 task.001.000019: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,384 SR650 000 task.001.000020: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,391 SR650 000 task.001.000021: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,399 SR650 000 task.001.000022: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,405 SR650 000 task.001.000023: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,433 SR650 000 task.001.000024: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,437 SR650 000 task.001.000025: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,442 SR650 000 task.001.000026: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,446 SR650 000 task.001.000027: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,450 SR650 000 task.001.000028: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,454 SR650 000 task.001.000029: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,459 SR650 000 task.001.000030: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,463 SR650 000 task.001.000031: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,467 SR650 000 task.001.000032: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,471 SR650 000 task.001.000033: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,475 SR650 000 task.001.000034: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,500 SR650 000 task.001.000035: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,503 SR650 000 task.001.000036: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,507 SR650 000 task.001.000037: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,511 SR650 000 task.001.000038: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,516 SR650 000 task.001.000039: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,521 SR650 000 task.001.000040: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,553 SR650 000 task.001.000041: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,559 SR650 000 task.001.000042: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,562 SR650 000 task.001.000043: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,587 SR650 000 task.001.000044: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,592 SR650 000 task.001.000045: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,598 SR650 000 task.001.000046: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,603 SR650 000 task.001.000047: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,607 SR650 000 task.001.000048: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:56,643 SR650 000 task.001.000049: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 04:47:57,518 iter 000001 task 07: run_fp
+2019-06-23 04:59:55,656 iter 000001 task 08: post_fp
+50
+# will shuffle raw files ['box.raw', 'coord.raw', 'energy.raw', 'force.raw', 'virial.raw'] in dir orig/ and output to dir .
+nframe is 50
+nline per set is 2000
+will make 1 sets
+making set 0 ...
+2019-06-23 04:59:58,038 iter 000002 task 00: make_train
+2019-06-23 04:59:58,131 iter 000002 task 01: run_train
+2019-06-23 05:05:33,441 iter 000002 task 02: post_train
+2019-06-23 05:05:33,444 iter 000002 task 03: make_model_devi
+2019-06-23 05:05:34,040 iter 000002 task 04: run_model_devi
+2019-06-23 05:06:54,610 iter 000002 task 05: post_model_devi
+2019-06-23 05:06:54,611 iter 000002 task 06: make_fp
+2019-06-23 05:06:54,758 SR650 000 task.002.000000: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,766 SR650 000 task.002.000001: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,774 SR650 000 task.002.000002: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,781 SR650 000 task.002.000003: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,786 SR650 000 task.002.000004: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,793 SR650 000 task.002.000005: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,800 SR650 000 task.002.000006: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,806 SR650 000 task.002.000007: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,813 SR650 000 task.002.000008: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,819 SR650 000 task.002.000009: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,826 SR650 000 task.002.000010: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,830 SR650 000 task.002.000011: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,835 SR650 000 task.002.000012: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,842 SR650 000 task.002.000013: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,846 SR650 000 task.002.000014: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,852 SR650 000 task.002.000015: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,857 SR650 000 task.002.000016: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,862 SR650 000 task.002.000017: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,868 SR650 000 task.002.000018: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,959 SR650 000 task.002.000019: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,964 SR650 000 task.002.000020: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,969 SR650 000 task.002.000021: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,973 SR650 000 task.002.000022: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,977 SR650 000 task.002.000023: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,980 SR650 000 task.002.000024: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,983 SR650 000 task.002.000025: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,987 SR650 000 task.002.000026: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,992 SR650 000 task.002.000027: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:54,998 SR650 000 task.002.000028: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,003 SR650 000 task.002.000029: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,008 SR650 000 task.002.000030: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,012 SR650 000 task.002.000031: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,017 SR650 000 task.002.000032: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,020 SR650 000 task.002.000033: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,026 SR650 000 task.002.000034: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,030 SR650 000 task.002.000035: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,035 SR650 000 task.002.000036: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,039 SR650 000 task.002.000037: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,044 SR650 000 task.002.000038: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,049 SR650 000 task.002.000039: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,115 SR650 000 task.002.000040: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,120 SR650 000 task.002.000041: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,125 SR650 000 task.002.000042: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,129 SR650 000 task.002.000043: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,135 SR650 000 task.002.000044: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,139 SR650 000 task.002.000045: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,142 SR650 000 task.002.000046: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,145 SR650 000 task.002.000047: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,149 SR650 000 task.002.000048: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:55,153 SR650 000 task.002.000049: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:06:56,782 iter 000002 task 07: run_fp
+2019-06-23 05:15:14,428 iter 000002 task 08: post_fp
+50
+# will shuffle raw files ['box.raw', 'coord.raw', 'energy.raw', 'force.raw', 'virial.raw'] in dir orig/ and output to dir .
+nframe is 50
+nline per set is 2000
+will make 1 sets
+making set 0 ...
+2019-06-23 05:15:16,766 iter 000003 task 00: make_train
+2019-06-23 05:15:16,815 iter 000003 task 01: run_train
+2019-06-23 05:20:51,604 iter 000003 task 02: post_train
+2019-06-23 05:20:51,612 iter 000003 task 03: make_model_devi
+2019-06-23 05:20:52,237 iter 000003 task 04: run_model_devi
+2019-06-23 05:22:14,409 iter 000003 task 05: post_model_devi
+2019-06-23 05:22:14,411 iter 000003 task 06: make_fp
+2019-06-23 05:22:14,608 SR650 000 task.003.000000: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,615 SR650 000 task.003.000001: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,622 SR650 000 task.003.000002: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,628 SR650 000 task.003.000003: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,634 SR650 000 task.003.000004: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,639 SR650 000 task.003.000005: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,644 SR650 000 task.003.000006: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,649 SR650 000 task.003.000007: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,655 SR650 000 task.003.000008: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,662 SR650 000 task.003.000009: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,668 SR650 000 task.003.000010: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,674 SR650 000 task.003.000011: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,677 SR650 000 task.003.000012: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,682 SR650 000 task.003.000013: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,688 SR650 000 task.003.000014: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,692 SR650 000 task.003.000015: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,699 SR650 000 task.003.000016: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,704 SR650 000 task.003.000017: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,710 SR650 000 task.003.000018: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,716 SR650 000 task.003.000019: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,720 SR650 000 task.003.000020: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,748 SR650 000 task.003.000021: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,753 SR650 000 task.003.000022: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,758 SR650 000 task.003.000023: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,764 SR650 000 task.003.000024: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,769 SR650 000 task.003.000025: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,773 SR650 000 task.003.000026: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,776 SR650 000 task.003.000027: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,781 SR650 000 task.003.000028: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,787 SR650 000 task.003.000029: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,813 SR650 000 task.003.000030: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,830 SR650 000 task.003.000031: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,833 SR650 000 task.003.000032: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,838 SR650 000 task.003.000033: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,862 SR650 000 task.003.000034: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,866 SR650 000 task.003.000035: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,870 SR650 000 task.003.000036: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,874 SR650 000 task.003.000037: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,879 SR650 000 task.003.000038: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,882 SR650 000 task.003.000039: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,909 SR650 000 task.003.000040: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,914 SR650 000 task.003.000041: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,919 SR650 000 task.003.000042: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,943 SR650 000 task.003.000043: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,947 SR650 000 task.003.000044: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,951 SR650 000 task.003.000045: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,956 SR650 000 task.003.000046: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,983 SR650 000 task.003.000047: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,987 SR650 000 task.003.000048: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:14,992 SR650 000 task.003.000049: /sharedext4/generator/example/deep.gen/generator/lib/ovito_file_convert.py conf.lmp POSCAR 
+2019-06-23 05:22:16,812 iter 000003 task 07: run_fp
+2019-06-23 05:41:37,951 iter 000003 task 08: post_fp
+50
+# will shuffle raw files ['box.raw', 'coord.raw', 'energy.raw', 'force.raw', 'virial.raw'] in dir orig/ and output to dir .
+nframe is 50
+nline per set is 2000
+will make 1 sets
+making set 0 ...
+2019-06-23 05:41:40,322 iter 000004 task 00: make_train
+2019-06-23 05:41:40,376 iter 000004 task 01: run_train
+2019-06-23 05:47:15,751 iter 000004 task 02: post_train
+2019-06-23 05:47:15,754 iter 000004 task 03: make_model_devi
+2019-06-23 05:47:15,760 finished!
+local_root is  iter.000000/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/75e4b015-b291-483a-9eed-b2ce3670e851
+local_root is  iter.000000/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/18b6ba50-e59d-4f75-a1ce-f5c2a07a5a5a
+local_root is  iter.000000/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b5e66f5f-95ab-425d-bb5f-91dc094a2771
+local_root is  iter.000000/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7b66835b-e889-4323-8b60-7340c477b741
+group_size 1
+The second situation!
+local_root is  iter.000000/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7107ede9-b550-4206-b5fd-8afcb3060b71
+local_root is  iter.000000/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c1245793-049a-44da-8c64-47d526f0d15f
+local_root is  iter.000000/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b0c036bc-72fb-4fce-a17e-8ea192c72d73
+local_root is  iter.000000/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/13161877-9724-47bb-9543-fe42744244f9
+local_root is  iter.000000/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/8463d862-14c1-46c2-871b-e924a2e796b1
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2a529da2-37b2-4b2f-85ca-478fdf5b41ae
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/8d97d73f-6f78-468b-9272-c1c96125e0c4
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cc52fd87-54f4-46db-8315-4887dbf3ec96
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/3119dd7b-c7e7-4d5b-a3f6-79f3db5b92a3
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/223976e8-9a4c-4a92-852c-f8ca53eae27b
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c54bd4e0-f728-4583-8f76-a4fe0b27c988
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/376048cd-38ce-4f9f-8ac9-19628dd03b77
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a98ed89a-a9de-4d7e-ab11-f028c0feed37
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b19a024d-26d3-4b17-89a1-df20cf32345f
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/290040be-a6ae-443b-9780-57b28ff4b70e
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/f5afb796-a0ec-4fdd-a700-2bf745db3fb1
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e64d9868-aae8-42c1-badc-1b29944f2feb
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/85cc23c9-df60-4487-8ece-c79d496446b5
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ebe73268-f884-444b-95c2-b7657a34faab
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e1212722-7fbd-4338-ba97-45d6ea09080e
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/fa769059-1ab6-4ba3-bd5a-0740250bd209
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/fcd2b23a-34ce-41c1-be1a-c0580ddf13b0
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a28e8c7b-f348-4cc6-abc2-dc4749778c83
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bff20ba3-3401-4a98-923c-f59bdef503a5
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6f1d4ad1-b511-4e84-a0df-28dbc073cafa
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/832a9534-5a2d-4990-9fe6-cab14f245ec3
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/20e622c0-b0f4-4c5c-b157-9760ecc9d963
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/120c3a78-85f4-4d33-8e47-6e88f1734b61
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/18b27d7e-79c6-4840-945e-605de2e9926f
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cf94058b-a2c0-446e-a06d-94ad000bb8ac
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7818ba32-a2f4-4ccd-88bf-523225b019f4
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b1220263-c360-425f-b9ab-0d60523b04a3
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/17e3c563-b1cd-45ab-8101-3c9fae688733
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e895679a-ce08-41a9-957b-f41b05e1307d
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a790244c-8c6d-4ceb-a1b1-a106be15d413
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/676fe40b-c073-4337-af02-6df26a05aebe
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b20e7cd9-4b3a-4450-8cc6-f8a7be1506fe
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ded17f6b-0c3b-4a32-b6ac-aa54ff18f1ac
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/4fa55aa9-19c2-4e42-9fc8-97d49570d97f
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d2458571-17e4-4cf4-ab8c-055aae53d86a
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a356fb6b-8c98-4025-ac35-25c0635380d0
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/99e98aee-5fe1-4756-bc00-7de962e30835
+local_root is  iter.000000/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/189ec68e-886b-44d7-ad08-b5aaebc30b45
+local_root is  iter.000001/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6e8ba258-4ab9-4bc1-a48f-62897a90bfd3
+local_root is  iter.000001/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/15fccf0d-e505-4ed2-bfca-8c955cf3b915
+local_root is  iter.000001/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cfb1434c-d3aa-4c05-9e2b-574f683cadca
+local_root is  iter.000001/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bc34ebd0-a9af-493a-b687-39abc6aff5ac
+group_size 1
+The second situation!
+local_root is  iter.000001/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d0b83f50-fba1-4b5d-8ad9-b5747192f29d
+local_root is  iter.000001/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/0653ea75-9d29-4502-8207-a88cab30645e
+local_root is  iter.000001/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2bfc1fb8-dfe7-4405-b729-e9d98de19de6
+local_root is  iter.000001/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b7802b53-22a3-41b1-9934-353143a6570c
+local_root is  iter.000001/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c8a0db30-4d6e-4317-9d27-9f817f79d57f
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6c9325d3-e5c3-444c-be9e-0a6468aacead
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/1303dbd3-bc42-4798-91fd-e6e32994fa14
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a3b88f6b-6b53-465a-b528-e27ce4206079
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bd73dbc6-45f5-4ca2-899c-80af0aef75de
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/236425ed-1407-4218-a310-cf4d7db41669
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/faacb035-b91c-45e4-9495-51f15666ab31
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e304fa8d-b60e-468d-97f7-6fb65e62475d
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/9aaece6b-6027-4301-8ef6-a1a64e82eb63
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/29885759-209a-4d52-aa01-c5c9afbacea1
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b98b5b8d-be3b-42dd-b987-15fca7346dd8
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/eda7cc7d-9be3-463e-a6b1-e46d15a94ee0
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/373409c9-d782-41c4-b0c7-072f3d880119
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/55b73265-390d-4071-b014-f173596e07b2
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/141163e3-5f94-4cf4-89ac-4cc91ef673b3
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2325985e-6728-4230-b8c8-3a5838e8b0f3
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/74061f62-8a5b-4bd1-9553-8055c057b017
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/4f22fa42-2685-4f4b-864e-9fdee49057fd
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/53ec7b6c-08cb-47ca-9b8c-5ebe466a5909
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/951ef65f-9d49-4f03-8a88-551a3462420f
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a97e5367-93e8-49f1-a6ac-b98a1a3a6189
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/02a108a2-9460-495b-a7f7-53ba0516d1fc
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/1546eb4e-485c-46bf-a2ca-144cc1a20bea
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/f160d477-3f34-4377-abe0-88ea6fb69465
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7c8cb2d6-5fec-4701-9d3c-c4db28e2e5fc
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ad897f18-7577-4a95-9d9c-6695b475652e
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/50cdea34-a524-4621-b2a4-33ab938e5f26
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/063d0ba8-855e-412b-8f70-f7a055e8a503
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/915aa8ac-0707-4077-b8db-745d4bb0f8cd
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b560908d-aab4-47c9-83a4-39e16333587b
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/84714b50-a56e-404d-a80c-b1c2c8cd4927
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c9b198da-d4e1-449d-8e70-116c5ca258b1
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/03480a56-9c2a-4913-a321-47055f82b799
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a0416584-7487-40af-9ac4-abc947a27ca6
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c1f809a6-053d-424e-a0cf-de46efb03b2f
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/59c5f9cc-2c7d-4581-a74d-a803c0f14ea5
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/afe58f88-3a29-488c-88ff-4b5e73ae5d96
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/4a3a3932-6aa7-4f13-b344-5400356ec3dc
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/96abfb3d-563d-4162-b93d-8c8db15ef4ae
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ecbe69b2-ce1a-4071-82a0-29b798abe5e8
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a31c7746-f888-4698-8c3c-ddf7c5f876f5
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/fc5ea9a3-9f9e-4bde-a5a5-37e9c4cd6280
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2b268f89-b777-4ec4-bae0-7bef2be1d2a2
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ff7e6929-8b0b-4cfa-8c1b-6c856b073ee2
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b1ad72fd-3c53-4985-85fc-e1dde87549e6
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cdc8cf16-12aa-488f-905c-f4e95d459da8
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/35d93a6f-8366-442d-995d-4504f16a02da
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6f3b2c20-8259-402a-a2d5-04c142f68595
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d9683176-8221-455f-be62-3ca7a1dc8bbd
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/1473467f-3aa3-45a6-b3d7-5dcdc94b90d3
+local_root is  iter.000001/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2feb8036-342d-4f49-a768-f34a3bda5eaa
+local_root is  iter.000002/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/03fabf46-1c8a-4140-bf31-615457567f2b
+local_root is  iter.000002/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ced4e31a-3792-4301-968c-de9c6dd59e71
+local_root is  iter.000002/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5f867e7b-1848-40af-9595-ee4e73be4b2c
+local_root is  iter.000002/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e040ea5f-daf9-4c58-8828-07fbe7cb4a64
+group_size 1
+The second situation!
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d65f7174-2ef3-449b-9349-60b026b00877
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/139598e9-e6c6-4c1b-9353-c4bc0a51ebdd
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ded3b31e-8398-42ef-a9eb-7bb2bb7e0050
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/294f76c7-da0f-4e1a-a746-2976d26017a4
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ddda2807-280a-4003-8ce8-332309d7ede0
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d0f049a3-bd2f-4033-9f19-258e3de58295
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b438602c-58cb-44cd-b451-1cba8b1f4d29
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/09989a80-8210-4bbb-9540-2d22c702b1e3
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d873a101-4838-4e32-acaf-e4d94ae528ca
+local_root is  iter.000002/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2bf2a1b0-39aa-43c6-a068-38f2bc7b731b
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7a2467ba-222c-472c-89d9-86897c74559b
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/afe9c411-b4da-415b-90a5-3f4146c1a8fc
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c498a0c6-d146-4fd6-9100-9ebbe75cdaf5
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/eb43cced-dc05-4b17-b77f-3ceeb1281d4c
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c6e7c28e-4597-4443-99fd-7b6c41c77ce5
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cd1ee2bb-fc5e-4ff1-b367-fe7fd4479085
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6c4acde6-185b-491a-a8a7-581f576d0cf9
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2d3e7c13-a1d2-46e7-baae-52ac0a7d5c28
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d94c4a47-d79b-4fab-aabe-1d383672665e
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/11ffa03f-ab7e-4f70-b0ab-f5c44d313f5e
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2551dc4f-ad52-4dc3-8730-8cb129233379
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/0ff15568-ba2f-415c-8f6a-f13a0ca30864
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a8ccc00c-7ea1-47ee-9cc3-7f936b2fc860
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d4620e95-be2f-49e7-8fbc-4c8a2a3fa0d8
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bd79b588-2b30-44c9-aa39-a79a89df0712
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/39d76b58-53bb-49aa-9a15-f4b1cf278372
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/c5145fcf-1efc-4489-87dc-762e1791d57b
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/10f86799-b48f-4ab1-8f19-c45b7be6ed6e
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b69292b5-04e6-4b6b-af88-ca58d5422146
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/8b30429f-c368-4b13-b3e1-50267f240986
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/833f1eb2-564c-4f8b-8169-f1c61d9a0355
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/38dfcf85-5f91-48ac-8dda-64f212b8b4b4
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/3718e4af-8bea-43a0-9bab-ea290067c9d8
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/eba1449c-9b71-4b8e-9858-242026025e74
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/3a7a74af-8e13-499a-8e45-3b1ce671acd0
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b9d2346c-8572-42e4-b1cf-e9210690fccb
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/01a47589-abb8-45b6-b127-95d0187d46dc
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/63e97437-6185-4286-8cd5-994b99444c44
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ee446092-5301-4e47-89e0-95660203e658
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/62709e4b-d2aa-41d3-9c88-3c5a6d02dc79
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7415fd1c-f66f-478f-8e3e-6d817b93bb9a
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/73273985-2afe-4124-937a-1d57ca526b35
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/50ceca62-fec1-4e27-afd1-43427b33d793
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5d04dd50-db6a-4290-a0a5-b9b7d5704e13
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5bedaeca-be53-4d29-8dd5-cc66e3f03953
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6c4b542f-ed7f-4064-88c2-dc19b3bfffb0
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/23c43e98-82cb-4f82-8e06-8e33527aab47
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/f181cf0a-f62c-440d-9a84-f495962ac7e6
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5a29943c-9611-4c00-810d-d197e1968d52
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a6c7d493-90d8-4bb5-a5bd-3f96f15c26d4
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/8c2525ea-c920-45c5-a35a-ef7211e1c0c8
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/39936b4f-75aa-4a34-a8c8-3f504e5b72d8
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/faaa7119-f262-401d-8188-8f7f258c002d
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2e3f859f-1dad-41f7-9f57-8d5ae19f5265
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b5e5c961-ba6d-4cff-abda-e04e70ec4fba
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/d19030d0-dd79-4206-b687-0aee6918fbee
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e4056ec4-7d60-427e-9536-6d45c694ecc9
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/9ab3efec-7653-481f-9a21-364b2de75521
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/fbf0c5cc-1a56-4aaf-9baf-084615945f1e
+local_root is  iter.000002/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7282c2c1-0dc7-4528-97ba-024fba3771e5
+local_root is  iter.000003/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bc8a6913-6a56-49c9-a150-6bcc01b2527d
+local_root is  iter.000003/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5a0146e6-8f06-45bd-b962-2115a3846dc9
+local_root is  iter.000003/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bed76f15-366b-40a3-b1a4-50bf4e6938f0
+local_root is  iter.000003/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/aeb42d7d-12b9-4a4c-9ee3-f894f6da0e08
+group_size 1
+The second situation!
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/544232f6-39ee-4abb-8924-94c4b1a5bff7
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ca9293f7-8862-44ad-9e9e-d8ce61be2617
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/654d03cc-0f4c-40e4-8a20-ae5c179c0e71
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/fd35fd95-3cb1-4f7e-b0b9-215d7d0459e0
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cdbc8a8e-a772-41b6-b003-fda8332c1945
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/051bb423-a531-43da-a30b-7262fe302188
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/1d4096e7-5748-416d-a108-bdd574b80ac4
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/9c278b16-3e6f-4c59-9a7a-dc96bdf60b0a
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e6b0f2eb-3178-4633-bf0e-f89883bfd5cc
+local_root is  iter.000003/01.model_devi
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/e3c92c9f-1a0d-4d5c-9396-65d5710fa204
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/23ac503a-d126-4297-aec8-363bedb3430f
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/71454a2c-7357-4aa6-b385-4ff3878f0f49
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2cf4c94c-9900-403c-bfdb-4e874e8ac878
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/167c8730-e008-4930-9858-f05a2384576e
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ade6a7d0-a610-474c-978d-740cee9ebbed
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/09ff7cb3-4167-4aa0-a692-b81c07c2f014
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/778ba106-c60b-4d6c-9a21-f67f9a321dce
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2bdeb64b-8e12-472a-930b-58be67d1eb12
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b86deb5c-9fbe-4244-90f0-9a15630621e0
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/f65e1282-e86b-4dff-81f5-73183428fa85
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/9ca9a6f3-ce29-4813-8129-0c55a716a4cb
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/68ead8a3-ac0a-4253-a782-1723f7c65d76
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5d7fa827-9593-427b-a6e5-317a8d2dd3bc
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/581133db-2217-4149-9e6a-1e28cee9f8d2
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/97b58f91-18b5-4817-a7bf-a722457017d3
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/7206c762-b67a-40bb-98b2-bc0fd5614ebe
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/72c4fbab-e8e8-4828-a3c1-8697df4bdeed
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/0bce2a8a-b117-454a-99e8-ea0f83724d87
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ee10f164-fae7-49b3-94da-1d6cd64ad4b3
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/02e7ee18-cbc4-4357-9d49-454d01cbce56
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/0df82d7c-c384-4940-af4a-7ca18134ae9c
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/411d135c-53f9-4d48-8973-a46b77f4ca92
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ba75ea4c-70d5-4717-b227-c7d36bdb510a
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/2cba02e2-4693-44c8-94c9-b68a1f30f62a
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/333554d2-48da-400c-a51b-28d271fd1e97
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b03f2de6-b877-4fce-8dc3-6389f332724e
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/48be714c-0210-4be3-8dde-af92213c6e73
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/11d72591-c7df-4365-b3a6-8cd00a855da1
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/031fcc5c-e8b8-4a13-8416-9acfd57b17aa
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/62554f36-4d77-4b1f-b8ca-d0c67091c134
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/8936dbad-de51-45e6-9e0b-d8f37e676c5f
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/03c53187-0715-4afe-9acc-ed8099f65607
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a0f7319f-f003-488b-9bb1-8337a7e62bbc
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/1badf09c-7fdd-4a0f-b868-5e568edc6996
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/83e988e5-b354-47d6-b316-356439caab9f
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/0e1d435d-6d91-4bb2-bad3-43fd65c61019
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/32c40e13-9578-4ad4-bb2e-506fca9f279e
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/43d01b72-ce51-43f1-bf1b-45fc10f3c8ec
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/865805e7-448e-4ca0-8307-568b15044095
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/6cea9feb-e7b8-4b72-b639-e86d20448288
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/75f2cae0-30b4-4145-99ab-9760ea1852d2
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b96b8642-f584-4bf4-9d1b-026c41789f93
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/cfd31900-46f6-4b1c-b1a0-4324177025a2
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/eedbd703-ff0c-4910-b292-0b96f8eebe4b
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/ccf8a320-b759-457b-8e41-7e2913bfc790
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/11df7101-da90-40d1-b534-98be30db1033
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/28f91f40-f516-43ec-9150-42906291beae
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/20813ddc-7444-4648-aaf3-de379a337e2b
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/5f9c7edf-1cfc-492a-a4b1-903f78bec7eb
+local_root is  iter.000003/02.fp
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/b320a7e0-2275-4958-935a-c9f968ccc7bb
+local_root is  iter.000004/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/35ac59be-51e3-4eb9-94cb-67e302be91c6
+local_root is  iter.000004/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/48fd6234-4b85-433a-b6e5-2f7690b1e881
+local_root is  iter.000004/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/a52ad30c-3c13-4e83-967a-9c29f4cffb22
+local_root is  iter.000004/00.train
+remote_root is /sharedext4/generator/example/deep.gen/generator/ch4/bd6f9f79-e4ee-4ea1-8a16-d413259ad9b2

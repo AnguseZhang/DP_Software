@@ -1,0 +1,80 @@
+2019-05-13 05:48:46.355207: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2019-05-13 05:48:46.374206: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+2019-05-13 05:48:46.374245: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (c01): /proc/driver/nvidia/version does not exist
+rach:       master
+  source commit:      e3cd911
+  source commit at:   2019-02-07 10:22:13 +0800
+  build float prec:   double
+  build with tf inc:  /sharedext4/local/tensorflow/r1.8.gpu.cc/include
+  build with tf lib:  /sharedext4/local/tensorflow/r1.8.gpu.cc/lib/libtensorflow_cc.so;/sharedext4/local/tensorflow/r1.8.gpu.cc/lib/libtensorflow_framework.so
+  set tf intra_op_parallelism_threads: 0
+  set tf inter_op_parallelism_threads: 0
+  >>> Info of lammps module:
+  use deepmd-kit at:  /sharedext4/local/deepmd-kit-0.12.4
+  source:             v0.12.4-1-ge3cd911-dirty
+  source branch:      master
+  source commit:      e3cd911
+  source commit at:   2019-02-07 10:22:13 +0800
+  build float prec:   double
+  build with tf inc:  /sharedext4/local/tensorflow/r1.8.gpu.cc/include
+  build with tf lib:  /sharedext4/local/tensorflow/r1.8.gpu.cc/lib/libtensorflow_cc.so;/sharedext4/local/tensorflow/r1.8.gpu.cc/lib/libtensorflow_framework.so
+  >>> Info of model(s):
+  using   4 model(s): ../graph.002.pb ../graph.003.pb ../graph.000.pb ../graph.001.pb 
+  rcut in model:      8
+  ntypes in model:    2
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 9
+  ghost atom cutoff = 9
+  binsize = 4.5, bins = 5 5 5
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair deepmd, perpetual
+      attributes: , newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.002
+Per MPI rank memory allocation (min/avg/max) = 3.953 | 3.953 | 3.953 Mbytes
+Step Temp PotEng KinEng TotEng Press Volume Lx Ly Lz Xy Xz Yz 
+       0           50   -192.19946   0.25205728    -191.9474   -53.067727    8017.2196    20.028671    19.766445    20.250841    0.4635746   -0.0987573   -0.1291803 
+      10    40.659548   -192.14241    0.2049707   -191.93744   -136.44372     8037.785    20.045782    19.783332    20.268142   0.46397064  -0.09884167  -0.12929066 
+      20    45.217484   -192.15358   0.22794792   -191.92563   -208.43035    8061.2212    20.065246    19.802541    20.287822   0.46442115 -0.098937643   -0.1294162 
+      30    39.965181   -192.11381    0.2014703   -191.91234   -229.77032    8087.4019    20.086945    19.823956    20.309761   0.46492337 -0.099044635  -0.12955615 
+      40    46.429689     -192.137   0.23405883   -191.90294   -218.85276    8118.3724    20.112553    19.849229    20.335653   0.46551609 -0.099170904  -0.12972132 
+      50    47.836729   -192.12832   0.24115192   -191.88717   -154.86264    8157.1128    20.144494    19.880752    20.367949   0.46625539 -0.099328399  -0.12992733 
+      60     43.13699   -192.07942   0.21745985   -191.86196   -44.881631    8206.7947    20.185309    19.921032    20.409216   0.46720007 -0.099529649  -0.13019058 
+      70    47.235149   -192.07898   0.23811926   -191.84086    68.152035    8269.2765    20.236406     19.97146     20.46088   0.46838273 -0.099781597  -0.13052014 
+      80    42.040288   -192.03996   0.21193122   -191.82803    179.41041    8345.2354    20.298179    20.032424    20.523338    0.4698125  -0.10008619  -0.13091856 
+      90    53.765614    -192.1004   0.27104029   -191.82936    238.15989    8441.6534    20.376053    20.109278    20.602076   0.47161493  -0.10047017  -0.13142083 
+     100    42.873416   -192.03669   0.21613114   -191.82056    276.33725     8568.445     20.47756    20.209457     20.70471   0.47396439  -0.10097068  -0.13207553 
+Loop time of 26.2359 on 1 procs for 100 steps with 40 atoms
+
+Performance: 0.659 ns/day, 36.439 hours/ns, 3.812 timesteps/s
+2444.9% CPU use with 1 MPI tasks x no OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 25.637     | 25.637     | 25.637     |   0.0 | 97.72
+Neigh   | 0.00095487 | 0.00095487 | 0.00095487 |   0.0 |  0.00
+Comm    | 0.00082493 | 0.00082493 | 0.00082493 |   0.0 |  0.00
+Output  | 0.59369    | 0.59369    | 0.59369    |   0.0 |  2.26
+Modify  | 0.0023706  | 0.0023706  | 0.0023706  |   0.0 |  0.01
+Other   |            | 0.0007522  |            |       |  0.00
+
+Nlocal:    40 ave 40 max 40 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    280 ave 280 max 280 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    0 ave 0 max 0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Neighbor list builds = 7
+Dangerous builds = 0
+Total wall time: 0:00:28
