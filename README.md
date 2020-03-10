@@ -32,3 +32,20 @@ Main program is `generator/gen.py`.
 Sample jsons needed for dpgen are placed in `generator/ch4/`. You may modify `machine.json` corresponding to the machine.
 
 You may run dpgen by `python gen.py ch4/param.json ch4/machine.json`
+
+## GMX
+Gromacs-2019.4 && Plmued-2.6-pert
+
+
+test command: 
+
+```
+
+
+export LD_LIBRARY_PATH=/root/gromacs-2019.4/lib64:/root/plumed-2.6.0/lib:/root/openmpi/lib:$LD_LIBRARY_PATH 
+source /root/gromacs-2019.4/bin/GMXRC
+
+cd  hrex;
+mpirun -np 4 --allow-run-as-root /root/yuzhi/gromacs-2019.4-mpi/bin/gmx_mpi mdrun -multidir rep0 rep1 rep2 rep3 -deffnm topol -dhdl dhdl.xvg  -v -plumed plumed.dat -replex 500 -nsteps 10000 -hrex
+
+```
